@@ -11,6 +11,8 @@ def find_min_in_nested_arrays(src)
        end
    new_array.push(src[row_index].sort.shift)
    row_index += 1 
-   end
-   p new_array
 end
+   p new_array
+
+end
+
